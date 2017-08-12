@@ -1,0 +1,35 @@
+#N canvas 678 306 467 350 10;
+#X obj 128 135 list prepend Fr;
+#X obj 144 34 r LANGUE;
+#X obj 128 182 pofxml PHRASES;
+#X obj 128 204 route gets;
+#X obj 128 226 list prepend text;
+#X obj 128 248 list trim;
+#X obj 128 270 outlet;
+#X msg 128 157 gets \$2/\$1;
+#X obj 128 11 inlet;
+#X obj 144 56 t b a;
+#X obj 144 78 symbol \$1;
+#X obj 228 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 98 135 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 234 75 loadbang;
+#X obj 234 97 symbol;
+#X obj 144 100 sel none;
+#X connect 0 0 7 0;
+#X connect 1 0 9 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 7 0 2 0;
+#X connect 8 0 0 0;
+#X connect 9 0 10 0;
+#X connect 9 1 0 1;
+#X connect 10 0 15 0;
+#X connect 11 0 10 0;
+#X connect 13 0 14 0;
+#X connect 14 0 15 1;
+#X connect 15 0 12 0;
+#X connect 15 1 0 0;

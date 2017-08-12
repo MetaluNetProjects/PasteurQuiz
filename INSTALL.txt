@@ -1,0 +1,5 @@
+make PLATFORM_OS=Android
+chmod a+x ./gradlew
+./gradlew assembleRelease && adb uninstall net.metalu.PasteurQuiz && adb -d install -r ./build/outputs/apk/PasteurQuiz-release-unsigned.apk
+
+gradle clean build

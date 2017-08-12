@@ -1,0 +1,56 @@
+<?xml version="1.0" ?> 
+<phrases>
+    <result id="0">
+        <Fr>As-tu vraiment visité le musée ?</Fr>
+        <En>Did you really visit the museum?</En>
+    </result>
+    <result id="1">
+        <Fr>C'est pas mal, il faudra revenir au musée pour progresser.</Fr>
+        <En>Not bad, you should come back to the museum and try to do better.</En>
+    </result>
+    <result id="2">
+        <Fr>Le musée a trouvé son futur guide !</Fr>
+        <En>The museum has just found a new guide!</En>
+    </result>
+    <quit>
+        <Fr>Quitter</Fr>
+        <En>Quit</En>
+    </quit>
+    <skip>
+        <Fr>Passer</Fr>
+        <En>Skip</En>
+    </skip>
+    <back>
+        <Fr>Retour</Fr>
+        <En>Back</En>
+    </back>
+    <replay>
+        <Fr>Rejouer</Fr>
+        <En>Replay</En>
+    </replay>
+    <fullgame>
+        <Fr>Le Grand Jeu</Fr>
+        <En>Full Game</En>
+    </fullgame>
+    <shortgame>
+        <Fr>Les Petits Joueurs</Fr>
+        <En>Short Game</En>
+    </shortgame>   
+    <wannaquit>
+        <Fr>Êtes-vous sûr de vouloir quitter le quiz ?</Fr>
+        <En>Do you really want to quit the quiz?</En>
+    </wannaquit>   
+    <wannareplay>
+        <Fr>Êtes-vous sûr de vouloir rejouer au quiz ?</Fr>
+        <En>Do you really want to replay the quiz?</En>
+    </wannareplay>   
+    <yes>
+        <Fr>Oui</Fr>
+        <En>Yes</En>
+    </yes>   
+    <no>
+        <Fr>Non</Fr>
+        <En>No</En>
+    </no>   
+</phrases>
+

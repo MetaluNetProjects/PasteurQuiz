@@ -4,7 +4,7 @@
 ################################################################################
 
 #ABIS_TO_COMPILE_RELEASE = armv7 neon x86
-#ABIS_TO_COMPILE_RELEASE = armv7
+ABIS_TO_COMPILE_RELEASE = armv7
 ################################################################################
 # OF ROOT
 #   The location of your root openFrameworks installation

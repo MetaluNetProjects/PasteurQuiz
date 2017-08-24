@@ -1,4 +1,4 @@
-#N canvas 284 206 585 292 10;
+#N canvas 252 483 635 363 10;
 #X declare -stdpath cyclone -lib cyclone;
 #X declare -stdpath zexy -lib zexy;
 #X declare -lib pof;
@@ -27,6 +27,19 @@
 #X msg 201 231 window \$1 \$2 \$3;
 #X obj 201 187 * 0.75;
 #X obj 243 186 * 0.75;
+#X obj 382 184 r toSYSTEM;
+#X obj 382 206 route getBattery;
+#X obj 382 293 s SYSTEM;
+#X obj 382 228 b;
+#X floatatom 497 272 5 0 0 0 - - -, f 5;
+#X msg 382 271 battery \$1;
+#X obj 470 251 hsl 128 15 0 100 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 467 271 i;
+#X obj 382 250 f 74;
+#X floatatom 307 181 5 0 0 0 - - -, f 5;
+#X msg 308 160 0.5;
+#X msg 338 159 0.75;
 #X connect 4 0 5 0;
 #X connect 7 0 8 0;
 #X connect 8 0 9 0;
@@ -39,3 +52,15 @@
 #X connect 12 0 6 0;
 #X connect 13 0 11 0;
 #X connect 14 0 11 1;
+#X connect 15 0 16 0;
+#X connect 16 0 18 0;
+#X connect 18 0 23 0;
+#X connect 20 0 17 0;
+#X connect 21 0 22 0;
+#X connect 22 0 19 0;
+#X connect 22 0 23 0;
+#X connect 23 0 20 0;
+#X connect 24 0 14 1;
+#X connect 24 0 13 1;
+#X connect 25 0 24 0;
+#X connect 26 0 24 0;

@@ -1,5 +1,42 @@
 make PLATFORM_OS=Android
 chmod a+x ./gradlew
-./gradlew assembleRelease && adb uninstall net.metalu.PasteurQuiz && adb -d install -r ./build/outputs/apk/PasteurQuiz-release-unsigned.apk
 
-gradle clean build
+#./gradlew clean build
+
+#./gradlew assembleRelease && adb uninstall net.metalu.PasteurQuiz && adb -d install -r ./build/outputs/apk/PasteurQuiz-release.apk
+
+./gradlew assembleRelease && adb -d install -r ./build/outputs/apk/PasteurQuiz-release.apk
+
+
+adb shell> dpm set-device-owner net.metalu.PasteurQuiz/.AdminReceiver 
+adb shell appops set android TOAST_WINDOW deny
+
+--- sources
+http://www.sureshjoshi.com/mobile/android-kiosk-mode-without-root/
+https://github.com/sureshjoshi/android-kiosk-example
+http://florent-dupont.blogspot.fr/2015/01/android-shell-command-dpm-device-policy.html
+http://florent-dupont.blogspot.fr/2015/02/10-things-to-know-about-device-owner.html
+
+
+--- todo
+shuffle questions
+english
+update questions
+1280x800 (instead of 1280x720)
+
+
+----------------------------------------
+---- install procedure
+-----------------------
+
+- clean home screen
+- set offline mode
+- set battery saver mode
+- activate developper mode
+- allow unknown sources
+- install APK: 
+	adb -d install -r ./build/outputs/apk/PasteurQuiz-release.apk
+- set app as device owner: 
+	adb shell dpm set-device-owner net.metalu.PasteurQuiz/.AdminReceiver
+- disable toast messages:
+	adb shell appops set android TOAST_WINDOW deny

@@ -35,7 +35,7 @@ void testApp::setup() {
 		//int ticksPerBuffer = 32; // 32 * 64 = buffer len of 2048
 		//int numInputs = 0; // no built in mic
 	//#else
-		int ticksPerBuffer = 1; // 8 * 64 = buffer len of 512
+		int ticksPerBuffer = 8; // 8 * 64 = buffer len of 512
 		int numInputs = 1;
 		int sampleRate = 44100;
 	//#endif
@@ -46,10 +46,10 @@ void testApp::setup() {
 
 	ofLogNotice(Tag, "init sound");
 	// setup OF sound stream
-	//ofSoundStreamSetup(2, numInputs, this, 44100, ofxPd::blockSize()*ticksPerBuffer, 4);
+	ofSoundStreamSetup(2, numInputs, this, 44100, ofxPd::blockSize()*ticksPerBuffer, 4);
 	os = NULL;
-	os = opensl_open(sampleRate, numInputs, 2, ticksPerBuffer*PdBase::blockSize(), testApp::opensl_process, (void*)this);
-	if(os == NULL) ofLogError(Tag, "error opening opensl");
+	//os = opensl_open(sampleRate, numInputs, 2, ticksPerBuffer*PdBase::blockSize(), testApp::opensl_process, (void*)this);
+	//if(os == NULL) ofLogError(Tag, "error opening opensl");
 
 	ofxAccelerometer.setup();
 	
@@ -263,6 +263,26 @@ int extractIntJobj(JNIEnv *env, jobject obj)
 }
 
 #include <jni.h>
+
+#ifndef _Included_net_metalu_PasteurQuiz_OFActivity
+#define _Included_net_metalu_PasteurQuiz_OFActivity
+#ifdef __cplusplus
+extern "C" {
+#endif
+#undef net_metalu_PasteurQuiz_OFActivity_NOTIFICATION_ID
+#define net_metalu_PasteurQuiz_OFActivity_NOTIFICATION_ID 1L
+/*
+ * Class:     net_ninjatune_ninjaJamm_OFActivity
+ * Method:    sendToPd
+ * Signature: ([Ljava/lang/Object;)V
+ */
+JNIEXPORT void JNICALL Java_net_metalu_PasteurQuiz_OFActivity_sendToPd
+  (JNIEnv *, jclass, jobjectArray);
+
+#ifdef __cplusplus
+}
+#endif
+#endif
 
 JNIEXPORT void JNICALL Java_net_metalu_PasteurQuiz_OFActivity_sendToPd (JNIEnv *env, jclass, jobjectArray array) {
 	std::vector<Any> vec;

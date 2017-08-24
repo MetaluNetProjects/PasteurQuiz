@@ -24,9 +24,19 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+// for screen pinning
+import android.app.admin.DevicePolicyManager;
+import android.content.ComponentName;
+import android.widget.Toast;
+import android.app.Activity;
+
+import android.os.BatteryManager;
+
 public class OFActivity extends cc.openframeworks.OFActivity{
 
 	OFAndroid ofApp;
+    private DevicePolicyManager mDpm;
+    private boolean mIsKioskEnabled = false;
 
 	@Override
     public void onCreate(Bundle savedInstanceState)
@@ -38,6 +48,9 @@ public class OFActivity extends cc.openframeworks.OFActivity{
         PrefUtils.setKioskModeActive(true/*false*/, getApplicationContext());
 		preventStatusBarExpansion(this);
 		
+		InitDevicePolicyManager();
+		enableKioskMode(true);		
+
         String packageName = getPackageName();
 
         ofApp = new OFAndroid(packageName,this);
@@ -57,9 +70,10 @@ public class OFActivity extends cc.openframeworks.OFActivity{
     protected void onResume() {
         super.onResume();
         ofApp.resume();
+        enableKioskMode(true);
     }
     
-    @Override
+    /*@Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
 	if (OFAndroid.keyDown(keyCode, event)) {
 	    return true;
@@ -75,13 +89,29 @@ public class OFActivity extends cc.openframeworks.OFActivity{
 	} else {
 	    return super.onKeyUp(keyCode, event);
 	}
-    }
+    }*/
 
-	/*@Override
+	@Override
+    public boolean onKeyDown(int keyCode, KeyEvent event){
+
+        if (keyCode == KeyEvent.KEYCODE_VOLUME_UP){
+            //Toast.makeText(this, "Volume button is disabled", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+
+        if (keyCode == KeyEvent.KEYCODE_VOLUME_DOWN){
+            //Toast.makeText(this, "Volume button is disabled", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+
+        return super.onKeyDown(keyCode, event);
+	}
+
+	@Override
 	public void onBackPressed() {
 		// nothing to do here
 		// … really
-	}*/
+	}
 
     
     @Override
@@ -127,6 +157,7 @@ public class OFActivity extends cc.openframeworks.OFActivity{
 //	comm with OF
 
     public void quit(){
+		//enableKioskMode(false);		
 		PrefUtils.setKioskModeActive(false, getApplicationContext());        
 		finish();
 		//OFAndroid.exit();
@@ -142,6 +173,11 @@ public class OFActivity extends cc.openframeworks.OFActivity{
     public void systemMessage(Object... args) {
 		if((args.length>0) && args[0].getClass().equals(String.class) && args[0].equals("quit")) {
 			quit();
+		}
+		else if((args.length>0) && args[0].getClass().equals(String.class) && args[0].equals("getBattery")) {
+			BatteryManager bm = (BatteryManager)getSystemService(BATTERY_SERVICE);
+			int batLevel = bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY);
+			sendToPdAsync("battery", batLevel);
 		}
 		else if((args.length>1) && args[0].getClass().equals(String.class) && args[0].equals("setPref")) {
 			//setPref(java.util.Arrays.copyOfRange(args, 1, args.length));
@@ -211,6 +247,40 @@ public class OFActivity extends cc.openframeworks.OFActivity{
 		    return true;
 		}
 	}
+	
+	private void InitDevicePolicyManager() {
+	    ComponentName deviceAdmin = new ComponentName(this, AdminReceiver.class);
+        mDpm = (DevicePolicyManager) getSystemService(Context.DEVICE_POLICY_SERVICE);
+        if (!mDpm.isAdminActive(deviceAdmin)) {
+            Toast.makeText(this, getString(R.string.not_device_admin), Toast.LENGTH_SHORT).show();
+        }
+
+        if (mDpm.isDeviceOwnerApp(getPackageName())) {
+            mDpm.setLockTaskPackages(deviceAdmin, new String[]{getPackageName()});
+        } else {
+            Toast.makeText(this, getString(R.string.not_device_owner), Toast.LENGTH_SHORT).show();
+        }
+	}
+
+	public void enableKioskMode(boolean enabled) {
+        try {
+            if (enabled) {
+                if (mDpm.isLockTaskPermitted(this.getPackageName())) {
+                    startLockTask();
+                    mIsKioskEnabled = true;
+                    //mButton.setText(getString(R.string.exit_kiosk_mode));
+                } else {
+                    Toast.makeText(this, getString(R.string.kiosk_not_permitted), Toast.LENGTH_SHORT).show();
+                }
+            } else {
+                stopLockTask();
+                mIsKioskEnabled = false;
+                //mButton.setText(getString(R.string.enter_kiosk_mode));
+            }
+        } catch (Exception e) {
+            // TODO: Log and handle appropriately
+        }
+    }
 }
 
 

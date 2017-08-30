@@ -1,0 +1,45 @@
+<?xml version="1.0" ?> 
+<questions>
+    <question id="0">
+        <question>Which way is the fastest for a medication to take effect?</question>
+        <A>Oral</A>
+        <B>Inhalation</B>
+        <C>Injection</C>
+        <good>C</good>
+		<answer>Injection is the fastest.</answer>
+    </question>
+    <question id="1">
+        <question>Spontaneous generation fans think that life happens spontaneously.</question>
+        <A>True</A>
+        <B>False</B>
+        <good>A</good>
+        <answer>Yes they do!</answer>
+    </question>
+    <question id="2">
+        <question>Which vegetable were used to grow bacilles tuberculeux in order to produce BCG?</question>
+        <A>Betterave</A>
+        <B>Potatoes</B>
+        <C>Pumpkin</C>
+        <good>B</good>
+		<answer>Albert Calmette et Camille Guérin cultivated bacilles on potatoes.</answer>
+    </question>
+    <question id="3">
+        <question>From what is named Zica?</question>
+        <!-- <question_short>Origine du nom de Zica ?</question_short> -->
+        <A>The name of the mosquito</A>
+        <B>The name of a forest in Ouganda</B>
+        <C>The name of a river in Brazil</C>
+        <good>B</good>
+		<answer>The name of Zica virus comes from the name of the forest.</answer>
+		<answer_image>chien.png</answer_image>
+    </question>
+    <question id="4">
+        <question>Is this the last question?</question>
+        <question_short>Last question?</question_short>
+        <A>True</A>
+        <B>False</B>
+        <good>A</good>
+		<answer>Yes it is!</answer>
+		<answer_image>madeleine.png</answer_image>
+    </question>
+</questions>

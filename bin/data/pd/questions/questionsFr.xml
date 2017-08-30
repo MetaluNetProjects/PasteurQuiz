@@ -1,15 +1,12 @@
 <?xml version="1.0" ?> 
 <questions>
     <question id="0">
-        <title>LES MÉDICAMENTS</title>
-        <image>medicament.jpg</image>
         <question>Par quelle voie un médicament agit-il le plus rapidement ?</question>
         <A>Par voie orale</A>
         <B>Par inhalation</B>
         <C>Par injection intraveineuse</C>
         <good>C</good>
 		<answer>C'est le système sanguin qui permet au médicament d'atteindre l'organe visé. C'est donc la voie par injection intraveineuse qui permet au médicament d'agir plus rapidement.</answer>
-        <explanation>Depuis la découverte du BCG en 1921, les équipes de chercheurs de l’Institut Pasteur de Lille travaillent sans relâche pour mettre au point de nouveaux médicaments contre la maladie d’Alzheimer, le cancer et bien d’autres encore.</explanation>
     </question>
     <question id="1">
         <question>Les partisans de la génération spontanée pensent que la vie apparaît spontanément.</question>
@@ -19,20 +16,14 @@
         <answer>Selon eux, il suffit d'un élément déclencheur pour faire apparaître la vie : par exemple, de la boue générera automatiquement des grenouilles.</answer>
     </question>
     <question id="2">
-        <title>LES VACCINS</title>
-        <image>bacille.jpg</image>
         <question>Sur quel légume ont été cultivés les bacilles tuberculeux pour mettre au point le BCG&#xA0;?</question>
         <A>La betterave</A>
         <B>La pomme de terre</B>
         <C>La citrouille</C>
         <good>B</good>
 		<answer>Albert Calmette et Camille Guérin ont cultivé des bacilles sur des morceaux de pomme de terre plongés dans de la bile de boeuf.</answer>
-        <explanation>Grippe, fièvre jaune, méningite, typhoïde, diphtérie, tétanos, poliomyélite, coqueluche, hépatite alimentaire, encéphalite japonaise... 
-Avec 45 000 vaccinations par an, l’Institut Pasteur de Lille est un centre de vaccination international de premier rang.</explanation>
     </question>
     <question id="3">
-        <title>L'ÉPIDÉMIE ZICA</title>
-        <image>bacille.jpg</image>
         <question>Quelle est l’origine du nom de l'épidémie Zica?</question>
         <question_short>Origine du nom de Zica ?</question_short>
         <A>Le nom du moustique qui la transmet</A>
@@ -41,8 +32,6 @@ Avec 45 000 vaccinations par an, l’Institut Pasteur de Lille est un centre de 
         <good>B</good>
 		<answer>Le nom du virus Zica provient bien du nom de sa forêt d'origine.</answer>
 		<answer_image>chien.png</answer_image>
-        <explanation>Grippe, fièvre jaune, méningite, typhoïde, diphtérie, tétanos, poliomyélite, coqueluche, hépatite alimentaire, encéphalite japonaise... 
-Avec 45 000 vaccinations par an, l’Institut Pasteur de Lille est un centre de vaccination international de premier rang.</explanation>
     </question>
     <question id="4">
         <question>Est-ce que cette question est la dernière du mode "petit joueur" ?</question>

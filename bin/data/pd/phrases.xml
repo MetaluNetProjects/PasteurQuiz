@@ -17,8 +17,8 @@
         <En>Quit</En>
     </quit>
     <skip>
-        <Fr>Passer</Fr>
-        <En>Skip</En>
+        <Fr>Suivant</Fr>
+        <En>Next</En>
     </skip>
     <back>
         <Fr>Retour</Fr>

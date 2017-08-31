@@ -1,4 +1,4 @@
-#N canvas 847 125 526 489 10;
+#N canvas 847 154 526 489 10;
 #X declare -path abs;
 #X declare -path abs/list-abs;
 #X declare -path pd-vectorabs;
@@ -953,7 +953,7 @@
 #X obj 18 92 del 2000;
 #X msg 381 405 JEU;
 #X msg 306 405 CHOIXJEU;
-#N canvas 467 110 972 765 Jeu 0;
+#N canvas 472 103 972 765 Jeu 0;
 #X obj 81 110 t a a a;
 #X obj 35 8 r mainHead;
 #X obj 35 63 pofvisible;
@@ -966,9 +966,9 @@
 #X obj 81 195 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 81 174 quit;
-#X obj 117 195 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 117 174 Next;
+#X obj 14 589 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 14 568 Next;
 #X obj 35 86 t a a;
 #X msg 58 221 1;
 #N canvas 102 532 660 311 avanceBar 0;
@@ -1159,7 +1159,7 @@
 #X obj 424 400 r NUMQUESTION;
 #X obj 406 513 s NUMQUESTION;
 #X obj 456 84 s NUMQUESTION;
-#X obj 299 213 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 299 213 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 299 255 line;
 #X msg 299 233 \$1 400;
@@ -1175,7 +1175,7 @@
 #X msg 261 483 1 800;
 #X obj 213 460 r NUMQUESTION;
 #X obj 405 591 hradio 15 1 0 5 empty empty empty 0 -8 0 10 -262144
--1 -1 1;
+-1 -1 4;
 #X obj 405 694 s QUESTION_CURRENT;
 #X obj 405 565 r NUMQUESTION;
 #X obj 578 604 pofxml QUESTIONS;
@@ -1184,7 +1184,7 @@
 #X obj 555 649 f;
 #X msg 612 625 0;
 #X msg 578 625 1;
-#X obj 555 672 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 555 672 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 555 694 s QUESTION_ISMULTIPLE;
 #X obj 104 589 t a a;
@@ -1527,7 +1527,7 @@
 #X connect 16 0 14 0;
 #X connect 17 0 14 0;
 #X restore 231 649 pd position;
-#N canvas 1 110 450 300 image 0;
+#N canvas 1 139 450 300 image 0;
 #X obj 84 16 inlet;
 #X obj 84 87 pofimage;
 #X obj 84 38 pofvisible;
@@ -1535,33 +1535,36 @@
 #X obj 235 89 question_prop answer_image;
 #X obj 205 53 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 235 133 print;
 #X msg 235 111 set questions/\$1;
 #X floatatom 172 171 5 0 0 0 - - -, f 5;
 #X obj 84 65 poftranslate 0 40;
 #X connect 0 0 2 0;
-#X connect 2 0 9 0;
+#X connect 2 0 8 0;
 #X connect 3 0 2 0;
-#X connect 4 0 7 0;
+#X connect 4 0 6 0;
 #X connect 5 0 2 0;
-#X connect 7 0 1 0;
-#X connect 7 0 6 0;
-#X connect 8 0 9 2;
-#X connect 9 0 1 0;
+#X connect 6 0 1 0;
+#X connect 7 0 8 2;
+#X connect 8 0 1 0;
 #X restore 104 717 pd image;
 #X obj 104 558 poftouchable;
 #X obj 235 536 == 1;
 #X obj 585 451 b;
 #X obj 168 762 s JEU-next;
-#X obj 136 193 s JEU-next;
+#X obj 14 608 s JEU-next;
 #X obj 153 218 r JEU-next;
 #X obj 585 473 del 100;
 #X obj 190 429 choix A;
 #X obj 213 405 choix B;
 #X obj 127 133 pofimage img/fond-bleu.png 1280 800;
 #X obj 405 614 tabread TIRAGE_TAB;
+#X obj 36 393 pofvisible;
+#X msg 62 370 0;
+#X obj 62 348 r NUMQUESTION;
+#X msg 98 370 1;
+#X msg 360 350 stop;
 #X connect 0 0 9 0;
-#X connect 0 0 11 0;
+#X connect 0 0 117 0;
 #X connect 0 1 14 0;
 #X connect 0 1 45 0;
 #X connect 0 1 50 0;
@@ -1620,6 +1623,7 @@
 #X connect 48 0 53 0;
 #X connect 49 0 41 0;
 #X connect 50 0 106 0;
+#X connect 50 0 11 0;
 #X connect 51 0 50 4;
 #X connect 51 0 107 0;
 #X connect 52 0 51 0;
@@ -1659,6 +1663,7 @@
 #X connect 86 0 85 1;
 #X connect 88 0 87 0;
 #X connect 90 0 91 0;
+#X connect 90 0 121 0;
 #X connect 92 0 27 0;
 #X connect 93 0 42 0;
 #X connect 94 0 76 0;
@@ -1683,6 +1688,9 @@
 #X connect 111 0 52 0;
 #X connect 112 0 88 0;
 #X connect 116 0 103 0;
+#X connect 118 0 117 0;
+#X connect 119 0 118 0;
+#X connect 121 0 48 0;
 #X restore 35 419 pd Jeu;
 #N canvas 935 303 779 523 Result 0;
 #X obj 81 153 t a a a;

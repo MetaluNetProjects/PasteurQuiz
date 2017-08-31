@@ -1,6 +1,40 @@
 <?xml version="1.0" ?> 
+<!--
+Template :
+
+    <question>
+        		<question>Quelle est l’origine du nom de l'épidémie Zica?</question>
+facultative: 	<question_short>Origine du nom de Zica ?</question_short>
+        		<A>Le nom du moustique qui la transmet</A>
+        		<B>Le nom de la forêt d’Ouganda où le virus a été découvert</B>
+        		<C>Le nom d’une rivière du Brésil</C>
+        		<good>B</good>
+				<answer>Le nom du virus Zica provient bien du nom de sa forêt d'origine.</answer>
+facultative: 	<answer_image>chien.png</answer_image>
+    </question>
+
+	<question>
+		<question></question>
+		<A></A>
+		<B></B>
+		<C></C>
+		<good></good>
+		<answer></answer>
+	</question>
+
+	<question>
+		<question></question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good></good>
+		<answer></answer>
+	</question>
+
+--> 
 <questions>
-    <question id="0">
+
+<!--
+    <question>
         <question>Par quelle voie un médicament agit-il le plus rapidement ?</question>
         <A>Par voie orale</A>
         <B>Par inhalation</B>
@@ -8,14 +42,14 @@
         <good>C</good>
 		<answer>C'est le système sanguin qui permet au médicament d'atteindre l'organe visé. C'est donc la voie par injection intraveineuse qui permet au médicament d'agir plus rapidement.</answer>
     </question>
-    <question id="1">
+    <question>
         <question>Les partisans de la génération spontanée pensent que la vie apparaît spontanément.</question>
         <A>Vrai</A>
         <B>Faux</B>
         <good>A</good>
         <answer>Selon eux, il suffit d'un élément déclencheur pour faire apparaître la vie : par exemple, de la boue générera automatiquement des grenouilles.</answer>
     </question>
-    <question id="2">
+    <question>
         <question>Sur quel légume ont été cultivés les bacilles tuberculeux pour mettre au point le BCG&#xA0;?</question>
         <A>La betterave</A>
         <B>La pomme de terre</B>
@@ -23,8 +57,8 @@
         <good>B</good>
 		<answer>Albert Calmette et Camille Guérin ont cultivé des bacilles sur des morceaux de pomme de terre plongés dans de la bile de boeuf.</answer>
     </question>
-    <question id="3">
-        <question>Quelle est l’origine du nom de l'épidémie Zica?</question>
+    <question>
+        <question>Quelle est l’origine du nom de l'épidémie Zica ?</question>
         <question_short>Origine du nom de Zica ?</question_short>
         <A>Le nom du moustique qui la transmet</A>
         <B>Le nom de la forêt d’Ouganda où le virus a été découvert</B>
@@ -33,7 +67,7 @@
 		<answer>Le nom du virus Zica provient bien du nom de sa forêt d'origine.</answer>
 		<answer_image>chien.png</answer_image>
     </question>
-    <question id="4">
+    <question>
         <question>Est-ce que cette question est la dernière du mode "petit joueur" ?</question>
         <question_short>Dernière question ?</question_short>
         <A>Vrai</A>
@@ -42,4 +76,151 @@
 		<answer>Hé oui c'était la dernière question !</answer>
 		<answer_image>madeleine.png</answer_image>
     </question>
+-->
+
+<!-- LES LETTRES FONDATRICES DE L’IPL -->
+	
+	<question room="fund">
+		<roomname>LES LETTRES FONDATRICES DE L’IPL</roomname>
+		<question>Qui Pasteur va-t-il nommer comme premier directeur de l’IPL en 1895 ?</question>
+		<A>Albert Calmette</A>
+		<B>Emile Roux</B>
+		<C>Camille Guérin</C>
+		<good>A</good>
+		<answer>Pasteur nomma le Docteur Albert Calmette comme premier directeur de L’IPL.</answer>
+    </question>
+
+	<question room="fund">
+		<question>A qui était adressée la lettre de Jean Baptiste Pasteur ?</question>
+		<A>Au maire de Lille</A>
+		<B>Au président de la République</B>
+		<C>A Louis Pasteur</C>
+		<good>A</good>
+		<answer>A la demande de son père, Jean Baptiste Pasteur a écrit au maire de Lille pour le remercier d'avoir oeuvré pour la construction de l'IPL.</answer>
+	</question>
+
+<!-- VIDEO IPL -->
+
+	<question room="video">
+		<roomname>VIDEO IPL</roomname>
+		<question>Quel était le collaborateur de Pasteur dans ses recherches ?</question>
+		<A>Emile Roux</A>
+		<B>Camille Guérin</B>
+		<C>Albert Calmette</C>
+		<good>A</good>
+		<answer>Emile Roux, qui a mis au point le sérum anti-diphtérique en 1891.</answer>
+	</question>
+
+	<question room="video">
+		<question>Pour quelle raison l’IPL a-t-il été créé ?</question>
+		<A>Pour éradiquer une épidémie de diphtérie à Lille</A>
+		<B>Pour faire face à la tuberculose</B>
+		<C>Pour isoler les gens malades de la population saine</C>
+		<good>A</good>
+		<answer>A cause d'une hygiène déplorable, la diphtérie tuait des centaines d'enfants chaque année à Lille. L'IPL a été créé pour produire le sérum anti-diphtérique et améliorer les conditions d'hygiène des habitants.</answer>
+	</question>
+
+	<question room="video">
+		<question>Quel animal Emile Roux a-t-il utilisé pour produire son sérum anti-diphtérie ?</question>
+		<A>Des lapins</A>
+		<B>Des chevaux</B>
+		<C>Des serpents</C>
+		<good>B</good>
+		<answer>Les anti-corps des chevaux a permis à Emile Roux de fabriquer son sérum.</answer>
+	</question>
+
+	<question room="video">
+		<question>Où Emile Roux avait-il installé le premier laboratoire temporaire avant la construction de l’IPL ?</question>
+		<A>A la halle au sucre</A>
+		<B>Dans le quartier Saint Sauveur</B>
+		<C>A la Madeleine</C>
+		<good>A</good>
+		<answer>C’est à la halle au sucre dans le Vieux Lille que le premier laboratoire temporaire fût implanté.</answer>
+	</question>
+
+	<question room="video">
+		<question>Pasteur est venu assister à l’inauguration de l’IPL.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>B</good>
+		<answer>Pasteur mourut en 1895, 4 avant l'inauguration. C’est donc sa veuve qui assista à son inauguration.</answer>
+	</question>
+
+	<question room="video">
+		<question>La construction de l’IPL à été financée par Napoléon III.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>La construction de l’IPL fût possible grâce à la Ville de Lille et aux dons (dont ceux de Calmette). Napoléon III a aidé au financement de l'Institut Pasteur à Paris.</answer>
+	</question>
+
+	<question room="video">
+		<question>Comment s’appelle le premier préventarium anti tuberculeux ?</question>
+		<A>Le dispensaire Emile Roux</A>
+		<B>Le dispensaire Camille Guérin</B>
+		<C>L’Institut Pasteur</C>
+		<good>A</good>
+		<answer>Calmette décida de créer le dispensaire Emile Roux pour lutter contre les ravages de la tuberculose</answer>
+	</question>
+
+<!-- LE DISPENSAIRE EMILE ROUX 1901 -->
+<!--	
+
+	<question>
+		<question></question>
+		<A>True</A>
+		<B>False</B>
+		<good></good>
+		<answer></answer>
+	</question>
+
+	<question>
+		<question></question>
+		<A>True</A>
+		<B>False</B>
+		<good></good>
+		<answer></answer>
+	</question>
+
+	<question>
+		<question></question>
+		<A></A>
+		<B></B>
+		<C></C>
+		<good></good>
+		<answer></answer>
+	</question>
+
+	<question>
+		<question></question>
+		<A></A>
+		<B></B>
+		<C></C>
+		<good></good>
+		<answer></answer>
+	</question>
+-->
+
+<!--  -->
+
+<!--	
+	<question>
+		<question></question>
+		<A></A>
+		<B></B>
+		<C></C>
+		<good></good>
+		<answer></answer>
+	</question>
+
+	<question>
+		<question></question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good></good>
+		<answer></answer>
+	</question>
+
+--> 
 </questions>
+

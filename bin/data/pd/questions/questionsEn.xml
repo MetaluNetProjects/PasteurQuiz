@@ -42,4 +42,150 @@
 		<answer>Yes it is!</answer>
 		<answer_image>madeleine.png</answer_image>
     </question>
+
+<!-- THE FOUNDING LETTERS OF THE IPL -->
+
+	<question room="fund">
+		<roomname>THE FOUNDING LETTERS OF THE IPL</roomname>
+		<question>Who did Pasteur appoint as the first director of the IPL in 1895?</question>
+		<A>Albert Calmette</A>
+		<B>Emile Roux</B>
+		<C>Camille Guérin</C>
+		<good>B</good>
+		<answer>Pasteur appointed Dr Albert Calmette as the first director of the IPL</answer>
+	</question>
+
+	<question room="fund">
+		<question>To whom was Jean-Baptiste Pasteur's letter addressed?</question>
+		<A>The Mayor of Lille</A>
+		<B>The President of France</B>
+		<C>Louis Pasteur</C>
+		<good>A</good>
+		<answer>At the request of his father, Jean-Baptiste Pasteur wrote to the Mayor of Lille to thank him for having worked for the construction of the IPL.</answer>
+	</question>
+
+<!-- IPL VIDEO -->
+
+	<question room="video">
+		<roomname>IPL VIDEO</roomname>
+		<question>Who was Pasteur's research partner?</question>
+		<A>Emile Roux</A>
+		<B>Camille Guérin</B>
+		<C>Albert Calmette</C>
+		<good>A</good>
+		<answer>Emile Roux, who developed the anti-diphtheria serum in 1891.</answer>
+	</question>
+
+	<question room="video">
+		<question>Why was the IPL created?</question>
+		<A>To eradicate an epidemic of diphtheria in Lille</A>
+		<B>To tackle TB</B>
+		<C>To isolate sick people from the healthy population</C>
+		<good>A</good>
+		<answer>As a result of the deplorable conditions of hygiene, diphtheria was killing hundreds of children each year in Lille. The IPL was created to produce the anti-diphtheria serum and improve the conditions of hygiene among the population.</answer>
+	</question>
+
+	<question room="video">
+		<question>What animal did Emile Roux use to produce his anti-diphtheria serum?</question>
+		<A>Rabbits</A>
+		<B>Horses</B>
+		<C>Snakes</C>
+		<good>B</good>
+		<answer>The antibodies of horses were used by Emile Roux to make his serum.</answer>
+	</question>
+
+	<question room="video">
+		<question>Where did Emile Roux set up the first temporary laboratory before the IPL was built?</question>
+		<A>In the sugar market</A>
+		<B>In the Saint Sauveur district</B>
+		<C>In la Madeleine</C>
+		<good>A</good>
+		<answer>The first temporary laboratory was set up in the sugar market of the Old Lille neighbourhood.</answer>
+	</question>
+
+	<question room="video">
+		<question>Pasteur attended the opening of the IPL.</question>
+		<A>True</A>
+		<B>False</B>
+		<good>B</good>
+		<answer>Pasteur died in 1895, 4 years before the opening. Consequently, his widow attended the opening ceremony.</answer>
+	</question>
+
+	<question room="video">
+		<question>The construction of the IPL was financed by Napoleon III.</question>
+		<A>True</A>
+		<B>False</B>
+		<good>A</good>
+		<answer>The construction of IPL was funded by the Ville de Lille (city council) and donations (including those of Calmette). Napoleon III helped finance the Institut Pasteur in Paris.</answer>
+	</question>
+
+	<question room="video">
+		<question>What was the first tuberculosis preventorium called?</question>
+		<A>The Emile Roux dispensary</A>
+		<B>The Camille Guérin dispensary</B>
+		<C>The Institut Pasteur</C>
+		<good>A</good>
+		<answer>Calmette decided to create the Emile Roux dispensary to combat the ravages of tuberculosis.</answer>
+	</question>
+
+<!-- THE EMILE ROUX DISPENSARY 1901 -->
+
+	<question room="disp">
+		<roomname>THE EMILE ROUX DISPENSARY 1901</roomname>
+		<question>Calmette created this dispensary to vaccinate the population against rabies.</question>
+		<A>True</A>
+		<B>False</B>
+		<good>B</good>
+		<answer>This purpose of this dispensary was to prevent the spread of tuberculosis, by giving advice on hygiene, washing the laundry of families, handing out healthy food, etc.</answer>
+	</question>
+
+<!--	
+	<question>
+		<question></question>
+		<A>True</A>
+		<B>False</B>
+		<good></good>
+		<answer></answer>
+	</question>
+
+	<question>
+		<question></question>
+		<A></A>
+		<B></B>
+		<C></C>
+		<good></good>
+		<answer></answer>
+	</question>
+
+	<question>
+		<question></question>
+		<A></A>
+		<B></B>
+		<C></C>
+		<good></good>
+		<answer></answer>
+	</question>
+-->
+
+<!--  -->
+<!--	
+	<question>
+		<question></question>
+		<A></A>
+		<B></B>
+		<C></C>
+		<good></good>
+		<answer></answer>
+	</question>
+
+	<question>
+		<question></question>
+		<A>True</A>
+		<B>False</B>
+		<good></good>
+		<answer></answer>
+	</question>
+
+--> 
+
 </questions>

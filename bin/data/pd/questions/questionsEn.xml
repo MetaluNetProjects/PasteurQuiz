@@ -130,7 +130,7 @@
 
 <!-- THE EMILE ROUX DISPENSARY 1901 -->
 
-	<question room="disp">
+	<question room="dispER">
 		<roomname>THE EMILE ROUX DISPENSARY 1901</roomname>
 		<question>Calmette created this dispensary to vaccinate the population against rabies.</question>
 		<A>True</A>

@@ -33,51 +33,6 @@ facultative: 	<answer_image>chien.png</answer_image>
 --> 
 <questions>
 
-<!--
-    <question>
-        <question>Par quelle voie un médicament agit-il le plus rapidement ?</question>
-        <A>Par voie orale</A>
-        <B>Par inhalation</B>
-        <C>Par injection intraveineuse</C>
-        <good>C</good>
-		<answer>C'est le système sanguin qui permet au médicament d'atteindre l'organe visé. C'est donc la voie par injection intraveineuse qui permet au médicament d'agir plus rapidement.</answer>
-    </question>
-    <question>
-        <question>Les partisans de la génération spontanée pensent que la vie apparaît spontanément.</question>
-        <A>Vrai</A>
-        <B>Faux</B>
-        <good>A</good>
-        <answer>Selon eux, il suffit d'un élément déclencheur pour faire apparaître la vie : par exemple, de la boue générera automatiquement des grenouilles.</answer>
-    </question>
-    <question>
-        <question>Sur quel légume ont été cultivés les bacilles tuberculeux pour mettre au point le BCG&#xA0;?</question>
-        <A>La betterave</A>
-        <B>La pomme de terre</B>
-        <C>La citrouille</C>
-        <good>B</good>
-		<answer>Albert Calmette et Camille Guérin ont cultivé des bacilles sur des morceaux de pomme de terre plongés dans de la bile de boeuf.</answer>
-    </question>
-    <question>
-        <question>Quelle est l’origine du nom de l'épidémie Zica ?</question>
-        <question_short>Origine du nom de Zica ?</question_short>
-        <A>Le nom du moustique qui la transmet</A>
-        <B>Le nom de la forêt d’Ouganda où le virus a été découvert</B>
-        <C>Le nom d’une rivière du Brésil</C>
-        <good>B</good>
-		<answer>Le nom du virus Zica provient bien du nom de sa forêt d'origine.</answer>
-		<answer_image>chien.png</answer_image>
-    </question>
-    <question>
-        <question>Est-ce que cette question est la dernière du mode "petit joueur" ?</question>
-        <question_short>Dernière question ?</question_short>
-        <A>Vrai</A>
-        <B>Faux</B>
-        <good>A</good>
-		<answer>Hé oui c'était la dernière question !</answer>
-		<answer_image>madeleine.png</answer_image>
-    </question>
--->
-
 <!-- LES LETTRES FONDATRICES DE L’IPL -->
 	
 	<question room="fund">
@@ -126,7 +81,7 @@ facultative: 	<answer_image>chien.png</answer_image>
 		<B>Des chevaux</B>
 		<C>Des serpents</C>
 		<good>B</good>
-		<answer>Les anti-corps des chevaux a permis à Emile Roux de fabriquer son sérum.</answer>
+		<answer>Les anti-corps des chevaux ont permis à Emile Roux de fabriquer son sérum.</answer>
 	</question>
 
 	<question room="video">
@@ -135,7 +90,7 @@ facultative: 	<answer_image>chien.png</answer_image>
 		<B>Dans le quartier Saint Sauveur</B>
 		<C>A la Madeleine</C>
 		<good>A</good>
-		<answer>C’est à la halle au sucre dans le Vieux Lille que le premier laboratoire temporaire fût implanté.</answer>
+		<answer>C’est à la halle au sucre dans le Vieux Lille que le premier laboratoire temporaire fut implanté.</answer>
 	</question>
 
 	<question room="video">
@@ -151,38 +106,393 @@ facultative: 	<answer_image>chien.png</answer_image>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>A</good>
-		<answer>La construction de l’IPL fût possible grâce à la Ville de Lille et aux dons (dont ceux de Calmette). Napoléon III a aidé au financement de l'Institut Pasteur à Paris.</answer>
+		<answer>La construction de l’IPL fut possible grâce à la Ville de Lille et aux dons (dont ceux de Calmette). Napoléon III a aidé au financement de l'Institut Pasteur à Paris.</answer>
 	</question>
 
 	<question room="video">
-		<question>Comment s’appelle le premier préventarium anti tuberculeux ?</question>
+		<question>Comment s’appelle le premier préventarium anti-tuberculeux ?</question>
 		<A>Le dispensaire Emile Roux</A>
 		<B>Le dispensaire Camille Guérin</B>
 		<C>L’Institut Pasteur</C>
 		<good>A</good>
-		<answer>Calmette décida de créer le dispensaire Emile Roux pour lutter contre les ravages de la tuberculose</answer>
+		<answer>Calmette décida de créer le dispensaire Emile Roux pour lutter contre les ravages de la tuberculose.</answer>
 	</question>
 
 <!-- LE DISPENSAIRE EMILE ROUX 1901 -->
+
+	<question room="dispER">
+		<roomname>LE DISPENSAIRE EMILE ROUX 1901</roomname>
+		<question>Calmette créa ce dispensaire pour vacciner la population contre la rage.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>B</good>
+		<answer>Ce dispensaire avait pour objectif de prévenir la propagation de la tuberculose, en donnant des conseils sur l'hygiène, en lavant le linge des familles, en donnant de la nourriture saine, etc...</answer>
+	</question>
+
+	<question room="dispER">
+		<question>La création de ce dispensaire introduit le concept de médecine préventive, idée novatrice pour l’époque.</question>
+		<question_short>La création de ce dispensaire introduit le concept de médecine préventive.</question_short>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>C’est la première fois que l’on prévient l’apparition de maladies. Les résultats sont tellement efficaces que la construction de dispensaire « type Calmette » deviendra obligatoire dans chaque département de France en 1916.</answer>
+	</question>
+
+	<question room="dispER">
+		<question>Par qui fut créée la première station d’épuration biologique de l’eau (en France) ?</question>
+		<A>Camille Guérin</A>
+		<B>Albert Calmette</B>
+		<C>Louis Pasteur</C>
+		<good>B</good>
+		<answer>Albert Calmette créa la première station d’épuration près de Lille, pour nettoyer les eaux très polluées de la Deûle.</answer>
+	</question>
+
+	<question room="dispER">
+		<question>Où se situait la première station d’épuration biologique ?</question>
+		<A>A Villeneuve d’Ascq</A>
+		<B>A la Madeleine</B>
+		<C>Dans le Vieux Lille</C>
+		<good>B</good>
+		<answer>Elle fut construite à La Madeleine. Elle sera détruite pendant la 1ere guerre mondiale.</answer>
+	</question>
+
+
+<!-- LA CRISTALLOGRAPHIE 1847/1854 -->
+	<question room="crist">
+		<roomname>LA CRISTALLOGRAPHIE 1847/1854</roomname>
+		<question>Quelle nouvelle science Pasteur a-t-il lancé grâce à l’étude des cristaux ?</question>
+		<A>La physique moléculaire</A>
+		<B>La stéréochimie</B>
+		<C>La biochimie</C>
+		<good>B</good>
+		<answer>Pasteur se rend compte qu'il peut exister deux formes géométriques différentes pour un même composé chimique, une forme orientée vers la gauche, l'autre vers la droite.
+Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
+	</question>
+
+	<question room="crist">
+		<question>Pasteur va observer la lumière traversant les cristaux à l’aide d’un Polarimètre.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>C’est grâce a cet outil qu’il va constater que les cristaux organiques sont dissymétriques.</answer>
+	</question>
+
+<!-- LA NAISSANCE DE LA MICROBIOLOGIE -->
+
+	<question room="microbio">
+		<roomname>LA NAISSANCE DE LA MICROBIOLOGIE</roomname>
+		<question>Monsieur Bigo est propriétaire d’une ferme.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>B</good>
+		<answer>Mr Bigo, patron d’une distillerie, demanda de l’aide à Pasteur.</answer>
+	</question>
+
+	<question room="microbio">
+		<question>A Mons en Baroeul, où se rendit Pasteur pour aider monsieur Bigo ?</question>
+		<A>Dans un bar</A>
+		<B>Dans une école</B>
+		<C>Dans une distillerie</C>
+		<good>C</good>
+		<answer>Pasteur alla dans une distillerie pour résoudre un problème : l’alcool produit par monsieur Bigo est impropre à la consommation sans raison apparente.</answer>
+	</question>
+
+	<question room="microbio">
+		<question>Les travaux de Pasteur sont à l’origine de la microbiologie.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>Il est le premier à prouver l’existence des micro-organismes, les microbes.</answer>
+	</question>
+
+<!-- LA FIN DE LA GENERATION SPONTANEE 1862 -->
+
+	<question room="genespon">
+		<roomname>LA FIN DE LA GENERATION SPONTANEE 1862</roomname>
+		<question>Les partisans de la génération spontanée pensent que la vie apparaît spontanément.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>Selon eux, il suffit d’un élément déclencheur pour faire apparaître la vie : par exemple de la boue générera automatiquement des grenouilles.</answer>
+	</question>
+
+	<question room="genespon">
+		<question>Quel matériel de chimie Pasteur a-t-il utilisé pour réfuter la théorie de la génération spontanée ?</question>
+		<A>Une pipette</A>
+		<B>Un ballon à col de cygne</B>
+		<C>Un broyeur</C>
+		<good>B</good>
+		<answer>Pasteur, pour son expérience, se servit d’un ballon à col de cygne.</answer>
+	</question>
+
+	<question room="genespon">
+		<question>Pasteur utilisa des levures, moins résistantes au chauffage que les bactéries du foin.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>Les bactéries du foin étaient plus résistantes à la chaleur que les levures de Pasteur, c’est pourquoi l’expérience de Pouchet n’a pas aboutie.</answer>
+	</question>
+
+<!-- LES MALADIES DES VERS A SOIE -->
+
+	<question room="silk">
+		<roomname>LES MALADIES DES VERS A SOIE</roomname>
+		<question>Quel est le nom du parasite rendant les vers à soie malades ?</question>
+		<A>Microsporidie</A>
+		<B>Macrosporidie</B>
+		<C>Phytosporidie</C>
+		<good>A</good>
+		<answer>Les vers à soie sont sujet à des maladies, dont l’infection par un « microsporidie », un petit champignon parasite, découvert par Pasteur lorsqu’il se rendit à Alès.</answer>
+	</question>
+
+	<question room="silk">
+		<question>Sur quelle théorie révolutionnaire s’est appuyé Pasteur lors de ses travaux sur les maladies des vers à soie ?</question>
+		<A>La théorie de la génération spontanée</A>
+		<B>La théorie des germes</B>
+		<C>La théorie des microbes</C>
+		<good>B</good>
+		<answer>C’est en 1878 que la théorie de germes (concept révolutionnaire) a été formulée pour la première fois lors de la conférence intitulée « La théorie des germes et ses applications à la médecine et à la chirurgie ».</answer>
+	</question>
+
+<!-- L’ASEPSIE ET L’HYGIENE 1878 -->
+
+	<question room="asepsie">
+		<roomname>L’ASEPSIE ET L’HYGIENE 1878</roomname>
+		<question>Qu’est ce que l’asepsie ?</question>
+		<A>On désinfecte pour tuer les microbes</A>
+		<B>On s’isole de la maladie</B>
+		<C>On se vaccine</C>
+		<good>A</good>
+		<answer>L’asepsie, c’est la stérilisation et la désinfection pour tuer les microbes.</answer>
+	</question>
+
+	<question room="asepsie">
+		<question>Quel petit geste du quotidien, initié par Joseph Lister, va révolutionner le monde de la chirurgie ?</question>
+		<A>Se brosser les cheveux</A>
+		<B>Se laver les dents</B>
+		<C>Se laver les mains</C>
+		<good>C</good>
+		<answer>Avant 1878, les chirurgiens ne se lavaient pas les mains avant d'opérer, et de très nombreux patients mouraient d'infection après leur opération. Lister, suivant les conseils de Pasteur introduit l'hygiène dans les salles d'opérations et dans la vie courante.</answer>
+	</question>
+
+<!-- LE VACCIN CONTRE LA RAGE 1885 -->
+	<question room="rage">
+		<roomname>LE VACCIN CONTRE LA RAGE 1885</roomname>
+		<question>Joseph a été mordu par un chien enragé.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>Il fut mordu à 14 reprises.</answer>
+	</question>
+
+	<question room="rage">
+		<question>La rage se transmet par :</question>
+		<A>Le contact</A>
+		<B>La salive</B>
+		<C>Par voie aérienne</C>
+		<good>B</good>
+		<answer>La rage est un virus qui se transmet par la salive : soit lors d’une morsure, soit lors d’une griffure ou d’un léchage sur une blessure, une lésion cutanée récente ou une muqueuse. Le virus ne traverse pas la peau saine.</answer>
+	</question>
+
+	<question room="rage">
+		<question>Pasteur créa son vaccin grâce à des poules.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>B</good>
+		<answer>Moins dangereux et plus facile à étudier, le lapin était l’animal idéal pour que Pasteur puisse mener à bien ses recherches.</answer>
+	</question>
+
+<!-- L’HISTOIRE D’ALBERT CALMETTE -->
+
+	<question room="calmette">
+		<roomname>L’HISTOIRE D’ALBERT CALMETTE</roomname>
+		<question>C’est en France que Calmette se passionne pour la microbiologie.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>B</good>
+		<answer>C’est en Asie (à Hong Kong) que Albert Calmette rencontre Patrick Manson, un médecin qui observait des moustiques au microscope.</answer>
+	</question>
+
+	<question room="calmette">
+		<question>Par quel animal Calmette se fit mordre le petit doigt ?</question>
+		<A>Une araignée</A>
+		<B>Un serpent</B>
+		<C>Un moustique</C>
+		<good>B</good>
+		<answer>Un serpent, en essayant de lui extraire du venin.</answer>
+	</question>
+
+	<question room="calmette">
+		<question>Calmette mit au point le sérum anti-venineux.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>   </answer>
+	</question>
+
+	<question room="calmette">
+		<question>Quel vaccin Calmette mit-il au point avec l’aide de Guérin ?</question>
+		<A>Le vaccin anti-tuberculeux</A>
+		<B>Le vaccin contre la rage</B>
+		<C>Le vaccin contre la diphtérie</C>
+		<good>A</good>
+		<answer>Le BCG, le vaccin contre la tuberculose.</answer>
+	</question>
+
+	<question room="calmette">
+		<question>Le BCG est un vaccin anti-tétanique.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>B</good>
+		<answer>Non, le BCG est un vaccin anti-tuberculeux.</answer>
+	</question>
+
+<!-- LE SÉRUM ANTI-VENIMEUX -->
+		
+	<question room="serum">
+		<roomname>LE SÉRUM ANTI-VENIMEUX</roomname>
+		<question>C’est à Sao Paulo que Calmette mit au point son sérum anti-venin.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>B</good>
+		<answer>C’est à Saigon, (aujourd’hui Hô-Chi-Min) : la capitale du Vietnam.</answer>
+	</question>
+
+	<question room="serum">
+		<question>Calmette, très chanceux, ne s’est jamais fait mordre par un serpent.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>B</good>
+		<answer>Il s’est fait mordre une fois le petit doigt. En s'injectant son sérum, il a survécu.</answer>
+	</question>
+
+<!-- LE BCG -->
+
+	<question room="bcg">
+		<roomname>LE BCG</roomname>
+		<question>Les initiales BCG correspondent à :</question>
+		<A>Boeuf/Camille/Guérin</A>
+		<B>Bile/Calmette/Guérin</B>
+		<C>Bilié/Calmette/Guérin</C>
+		<good>C</good>
+		<answer>Le Bacille Bilié Calmette Guérin sauva la vie des millions d’enfants et fut distribué gratuitement à l’international.</answer>
+	</question>
+
+	<question room="bcg">
+		<question>Calmette et Guérin cherchent un vaccin contre la variole.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>B</good>
+		<answer>Leurs recherches se concentrent sur un vaccin contre la tuberculose.</answer>
+	</question>
+
+	<question room="bcg">
+		<question>La tuberculose se transmet par voie aérienne.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>Il suffit que quelqu’un tousse ou éternue pour que la bactérie se propage dans la pièce.</answer>
+	</question>
+
+	<question room="bcg">
+		<question>Grâce à quel tubercule Calmette parvient-il à cultiver la souche tuberculeuse du bœuf ?</question>
+		<A>La betterave</A>
+		<B>Le gingembre</B>
+		<C>La pomme de terre</C>
+		<good>C</good>
+		<answer>La culture de la souche tuberculeuse de bœuf a été rendue possible grâce à l’amidon contenu dans la pomme de terre.</answer>
+	</question>
+
+	<question room="bcg">
+		<question>Le premier vaccin anti-tuberculeux a été mis au point après la première guerre mondiale.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>C’est en 1921, soit trois ans après la fin de la guerre, que Calmette et son collaborateur Guérin mettront au point le BCG.</answer>
+	</question>
+
+	<question room="bcg">
+		<question>Suite au grand succès du vaccin, un scandale éclata suite à la mort de 72 enfants en Pologne.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>B</good>
+		<answer>C’est à Lübeck en Allemagne que ce scandale prit racine.</answer>
+	</question>
+
+	<question room="bcg">
+		<question>Le rôle du vaccin dans la mort des enfants de Lübeck fut démenti par L.Nègre.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>Il démontra qu’en réalité c’est une erreur de manipulation au laboratoire de Lübeck qui causa la mort de tous ces enfants.</answer>
+	</question>
+
+<!-- L’INSTITUT PASTEUR DE LILLE AUJOURD’HUI & DEMAIN -->
+
+	<question room="IPL">
+		<roomname>L’INSTITUT PASTEUR DE LILLE AUJOURD’HUI ET DEMAIN</roomname>
+		<question>L’Institut Pasteur de Lille est :</question>
+		<A>Une entreprise</A>
+		<B>Une fondation</B>
+		<C>Un service public</C>
+		<good>B</good>
+		<answer>L’Institut Pasteur de Lille est une fondation reconnu d’intérêt public.</answer>
+	</question>
+
+	<question room="IPL">
+		<question>Les recherches de l’Institut Pasteur de Lille sont essentiellement financées par des dons.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>Les partenaires et les donateurs sont les principales sources de financement de la recherche.</answer>
+	</question>
+
+	<question room="IPL">
+		<question>Sous la direction de Patrick Berche, quelles sont les nouvelles orientations de l’Institut Pasteur de Lille :</question>
+		<A>Vivre et survivre</A>
+		<B>La santé en France</B>
+		<C>Vivre mieux, plus longtemps</C>
+		<good>C</good>
+		<answer>En 2014, un centre transdisciplinaire de recherche sur la longévité a été créé pour « vivre mieux plus longtemps ».</answer>
+	</question>
+
+	<question room="IPL">
+		<question>Combien y a-t-il d’unités de recherche sur le campus de l’Institut Pasteur de Lille ?</question>
+		<A>6</A>
+		<B>15</B>
+		<C>3</C>
+		<good>A</good>
+		<answer>Il y a 6 unités de recherche :
+- Récepteurs nucléaires, maladies cardiovasculaires et diabète
+- Médicaments et Molécules pour agir sur les Systèmes Vivants
+- Génomique intégrative et modélisation des maladies métaboliques
+- Mécanisme de la tumorigénèse et thérapies ciblées
+- Santé publique et épidémiologie moléculaire des maladies liées à l'âge
+- Centre d'infection et d'immunité de Lille (CIIL)</answer>
+		<answer_size>33</answer_size>
+	</question>
+
+	<question room="IPL">
+		<question>Combien recense-t-on de diabétiques en France aujourd’hui ?</question>
+		<A>10 000</A>
+		<B>150 000</B>
+		<C>3 millions</C>
+		<good>C</good>
+		<answer>Le nombre de diabétiques augmente chaque année en France,  Il y en a 3 millions aujourd’hui. l’IPL œuvre notamment pour prévenir le diabète et éviter ces complications.</answer>
+	</question>
+
+	<question room="IPL">
+		<question>Le centre de vaccination accueille 20 000 personnes par an.</question>
+		<A>Vrai</A>
+		<B>Faux</B>
+		<good>A</good>
+		<answer>L’Institut Pasteur de Lille propose différents services de santé dont la vaccination.</answer>
+	</question>
+
 <!--	
+		<roomname></roomname>
 
-	<question>
-		<question></question>
-		<A>True</A>
-		<B>False</B>
-		<good></good>
-		<answer></answer>
-	</question>
-
-	<question>
-		<question></question>
-		<A>True</A>
-		<B>False</B>
-		<good></good>
-		<answer></answer>
-	</question>
-
-	<question>
+	<question room="">
 		<question></question>
 		<A></A>
 		<B></B>
@@ -191,29 +501,7 @@ facultative: 	<answer_image>chien.png</answer_image>
 		<answer></answer>
 	</question>
 
-	<question>
-		<question></question>
-		<A></A>
-		<B></B>
-		<C></C>
-		<good></good>
-		<answer></answer>
-	</question>
--->
-
-<!--  -->
-
-<!--	
-	<question>
-		<question></question>
-		<A></A>
-		<B></B>
-		<C></C>
-		<good></good>
-		<answer></answer>
-	</question>
-
-	<question>
+	<question room="">
 		<question></question>
 		<A>Vrai</A>
 		<B>Faux</B>

@@ -1,6 +1,7 @@
 package net.metalu.PasteurQuiz;
 
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.content.Context;
 import android.view.KeyEvent;
@@ -177,7 +178,18 @@ public class OFActivity extends cc.openframeworks.OFActivity{
 		else if((args.length>0) && args[0].getClass().equals(String.class) && args[0].equals("getBattery")) {
 			BatteryManager bm = (BatteryManager)getSystemService(BATTERY_SERVICE);
 			int batLevel = bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY);
-			sendToPdAsync("battery", batLevel);
+			
+			IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+			Intent batteryStatus = this.registerReceiver(null, ifilter);
+			int status = batteryStatus.getIntExtra(BatteryManager.EXTRA_STATUS, -1);
+			boolean isCharging = status == BatteryManager.BATTERY_STATUS_CHARGING || status == BatteryManager.BATTERY_STATUS_FULL;
+
+			// How are we charging?
+			int chargePlug = batteryStatus.getIntExtra(BatteryManager.EXTRA_PLUGGED, -1);
+			boolean usbCharge = chargePlug == BatteryManager.BATTERY_PLUGGED_USB;
+			boolean acCharge = chargePlug == BatteryManager.BATTERY_PLUGGED_AC;
+						
+			sendToPdAsync("battery", batLevel, /*isCharging*/(chargePlug != 0)?1:0);
 		}
 		else if((args.length>1) && args[0].getClass().equals(String.class) && args[0].equals("setPref")) {
 			//setPref(java.util.Arrays.copyOfRange(args, 1, args.length));

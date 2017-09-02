@@ -1,4 +1,5 @@
-#N canvas 252 512 635 363 10;
+#N struct 1009-f float x;
+#N canvas 250 512 635 363 10;
 #X declare -stdpath cyclone -lib cyclone;
 #X declare -stdpath zexy -lib zexy;
 #X declare -lib pof;
@@ -27,21 +28,24 @@
 #X obj 243 186 * 0.75;
 #X obj 382 184 r toSYSTEM;
 #X obj 382 206 route getBattery;
-#X obj 382 293 s SYSTEM;
+#X obj 382 326 s SYSTEM;
 #X obj 382 228 b;
-#X floatatom 497 272 5 0 0 0 - - -, f 5;
-#X msg 382 271 battery \$1;
-#X obj 470 251 hsl 128 15 0 100 0 0 empty empty empty -2 -8 0 10 -262144
+#X floatatom 451 252 5 0 0 0 - - -, f 5;
+#X obj 424 231 hsl 128 15 0 100 0 0 empty empty level 4 7 0 10 -262144
 -1 -1 0 1;
-#X obj 467 271 i;
+#X obj 421 251 i;
 #X obj 382 250 f 74;
 #X floatatom 307 181 5 0 0 0 - - -, f 5;
 #X msg 308 160 0.5;
 #X msg 338 159 0.75;
 #X msg 201 121 window 1280 800 0 \, framerate 60 \, background 0 0
 0;
+#X obj 466 274 tgl 15 0 empty empty charging 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 382 272 pack f f;
+#X msg 382 301 battery \$1 \$2;
 #X connect 4 0 5 0;
-#X connect 7 0 26 0;
+#X connect 7 0 25 0;
 #X connect 8 0 9 0;
 #X connect 8 1 6 0;
 #X connect 9 0 12 0;
@@ -53,14 +57,16 @@
 #X connect 13 0 10 1;
 #X connect 14 0 15 0;
 #X connect 15 0 17 0;
-#X connect 17 0 22 0;
-#X connect 19 0 16 0;
+#X connect 17 0 21 0;
+#X connect 19 0 20 0;
+#X connect 20 0 18 0;
 #X connect 20 0 21 0;
-#X connect 21 0 18 0;
-#X connect 21 0 22 0;
-#X connect 22 0 19 0;
-#X connect 23 0 13 1;
-#X connect 23 0 12 1;
-#X connect 24 0 23 0;
-#X connect 25 0 23 0;
-#X connect 26 0 8 0;
+#X connect 21 0 27 0;
+#X connect 22 0 13 1;
+#X connect 22 0 12 1;
+#X connect 23 0 22 0;
+#X connect 24 0 22 0;
+#X connect 25 0 8 0;
+#X connect 26 0 27 1;
+#X connect 27 0 28 0;
+#X connect 28 0 16 0;

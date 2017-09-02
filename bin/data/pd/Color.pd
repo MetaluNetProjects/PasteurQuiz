@@ -1,8 +1,8 @@
-#N canvas 85 406 664 429 10;
+#N canvas 85 446 664 429 10;
 #X obj 85 198 unpack f f f;
 #X obj 85 174 r color\$1;
 #X obj 44 137 inlet;
-#X obj 44 247 outlet;
+#X obj 44 277 outlet;
 #X obj 409 209 s sendColors;
 #X obj 409 189 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -22,8 +22,10 @@
 #X obj 424 87 r colorDBlue;
 #X obj 545 87 r colorLYellow;
 #X obj 243 156 t a;
-#X obj 44 223 pofcolor 1 1 1 \$2, f 24;
+#X obj 44 253 pofcolor 1 1 1 \$2, f 24;
 #X obj 98 28 route float;
+#X obj 518 22 inlet;
+#X obj 252 199 unpack f f f;
 #X connect 0 0 22 1;
 #X connect 0 1 22 2;
 #X connect 0 2 22 3;
@@ -53,3 +55,7 @@
 #X connect 22 0 3 0;
 #X connect 23 0 22 4;
 #X connect 23 1 14 0;
+#X connect 24 0 25 0;
+#X connect 25 0 22 1;
+#X connect 25 1 22 2;
+#X connect 25 2 22 3;

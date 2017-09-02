@@ -36,7 +36,7 @@ facultative: 	<answer_image>chien.png</answer_image>
 <!-- LES LETTRES FONDATRICES DE L’IPL -->
 	
 	<question room="fund">
-		<roomname>LES LETTRES FONDATRICES DE L’IPL</roomname>
+		<roomname>LES LETTRES FONDATRICES DE L’INSTITUT PASTEUR DE LILLE (IPL)</roomname>
 		<question>Qui Pasteur va-t-il nommer comme premier directeur de l’IPL en 1895 ?</question>
 		<A>Albert Calmette</A>
 		<B>Emile Roux</B>
@@ -375,7 +375,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<B>Bile/Calmette/Guérin</B>
 		<C>Bilié/Calmette/Guérin</C>
 		<good>C</good>
-		<answer>Le Bacille Bilié Calmette Guérin sauva la vie des millions d’enfants et fut distribué gratuitement à l’international.</answer>
+		<answer>Le vaccin Bilié Calmette Guérin sauva la vie de millions d’enfants et fut distribué gratuitement dans le monde entier.</answer>
 	</question>
 
 	<question room="bcg">

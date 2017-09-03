@@ -40,3 +40,15 @@ update questions
 	adb shell dpm set-device-owner net.metalu.PasteurQuiz/.AdminReceiver
 - disable toast messages:
 	adb shell appops set android TOAST_WINDOW deny
+
+----------------------------------------
+---- update questions 
+----------------------------------------
+read to local file:
+	adb pull /sdcard/Android/data/net.metalu.PasteurQuiz/files/pd/questions/questionsFr.xml
+	adb pull /sdcard/Android/data/net.metalu.PasteurQuiz/files/pd/questions/questionsEn.xml
+
+write local file to device:
+	adb push questionsFr.xml /sdcard/Android/data/net.metalu.PasteurQuiz/files/pd/questions/
+	adb push questionsEn.xml /sdcard/Android/data/net.metalu.PasteurQuiz/files/pd/questions/
+

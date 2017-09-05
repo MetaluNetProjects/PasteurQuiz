@@ -150,7 +150,7 @@ facultative: 	<answer_image>chien.png</answer_image>
 	<question room="dispER">
 		<question>Où se situait la première station d’épuration biologique ?</question>
 		<A>A Villeneuve d’Ascq</A>
-		<B>A la Madeleine</B>
+		<B>A La Madeleine</B>
 		<C>Dans le Vieux Lille</C>
 		<good>B</good>
 		<answer>Elle fut construite à La Madeleine. Elle sera détruite pendant la 1ère guerre mondiale.</answer>
@@ -181,11 +181,11 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 
 	<question room="microbio">
 		<roomname>LA NAISSANCE DE LA MICROBIOLOGIE</roomname>
-		<question>Monsieur Bigo est propriétaire d’une ferme.</question>
+		<question>Monsieur Bigo était propriétaire d’une ferme.</question>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>B</good>
-		<answer>Mr Bigo est propriétaire d’une distillerie, et demanda de l’aide à Pasteur.</answer>
+		<answer>Monsieur Bigo était propriétaire d’une distillerie, et demanda de l’aide à Pasteur.</answer>
 	</question>
 
 	<question room="microbio">

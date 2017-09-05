@@ -46,12 +46,12 @@ facultative: 	<answer_image>chien.png</answer_image>
     </question>
 
 	<question room="fund">
-		<question>A qui était adressée la lettre de Jean Baptiste Pasteur ?</question>
-		<A>Au maire de Lille</A>
-		<B>Au président de la République</B>
+		<question>A qui était adressée la lettre de Jean-Baptiste Pasteur ?</question>
+		<A>Au Maire de Lille</A>
+		<B>Au Président de la République</B>
 		<C>A Louis Pasteur</C>
 		<good>A</good>
-		<answer>A la demande de son père, Jean Baptiste Pasteur a écrit au maire de Lille pour le remercier d'avoir oeuvré pour la construction de l'IPL.</answer>
+		<answer>A la demande de son père, Jean-Baptiste Pasteur a écrit au Maire de Lille pour le remercier d'avoir œuvré pour la construction de l'IPL.</answer>
 	</question>
 
 <!-- VIDEO IPL -->
@@ -86,11 +86,11 @@ facultative: 	<answer_image>chien.png</answer_image>
 
 	<question room="video">
 		<question>Où Emile Roux avait-il installé le premier laboratoire temporaire avant la construction de l’IPL ?</question>
-		<A>A la halle au sucre</A>
+		<A>A la Halle aux Sucres</A>
 		<B>Dans le quartier Saint Sauveur</B>
-		<C>A la Madeleine</C>
+		<C>A La Madeleine</C>
 		<good>A</good>
-		<answer>C’est à la halle au sucre dans le Vieux Lille que le premier laboratoire temporaire fut implanté.</answer>
+		<answer>C’est à la Halle aux Sucres dans le Vieux Lille que le premier laboratoire temporaire fut implanté.</answer>
 	</question>
 
 	<question room="video">
@@ -98,15 +98,15 @@ facultative: 	<answer_image>chien.png</answer_image>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>B</good>
-		<answer>Pasteur mourut en 1895, 4 avant l'inauguration. C’est donc sa veuve qui assista à son inauguration.</answer>
+		<answer>Pasteur mourut en 1895, 4 ans avant l'inauguration. C’est donc sa veuve qui y assista.</answer>
 	</question>
 
 	<question room="video">
-		<question>La construction de l’IPL à été financée par Napoléon III.</question>
+		<question>La construction de l’IPL a été financée par Napoléon III.</question>
 		<A>Vrai</A>
 		<B>Faux</B>
-		<good>A</good>
-		<answer>La construction de l’IPL fut possible grâce à la Ville de Lille et aux dons (dont ceux de Calmette). Napoléon III a aidé au financement de l'Institut Pasteur à Paris.</answer>
+		<good>B</good>
+		<answer>La construction de l’IPL fut possible grâce à la Ville de Lille et aux dons (dont ceux de Calmette). Napoléon III a aidé au financement de l'Institut Pasteur de Paris.</answer>
 	</question>
 
 	<question room="video">
@@ -153,7 +153,7 @@ facultative: 	<answer_image>chien.png</answer_image>
 		<B>A la Madeleine</B>
 		<C>Dans le Vieux Lille</C>
 		<good>B</good>
-		<answer>Elle fut construite à La Madeleine. Elle sera détruite pendant la 1ere guerre mondiale.</answer>
+		<answer>Elle fut construite à La Madeleine. Elle sera détruite pendant la 1ère guerre mondiale.</answer>
 	</question>
 
 
@@ -174,7 +174,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>A</good>
-		<answer>C’est grâce a cet outil qu’il va constater que les cristaux organiques sont dissymétriques.</answer>
+		<answer>C’est grâce à cet outil qu’il va constater que les cristaux organiques sont dissymétriques.</answer>
 	</question>
 
 <!-- LA NAISSANCE DE LA MICROBIOLOGIE -->
@@ -185,16 +185,16 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>B</good>
-		<answer>Mr Bigo, patron d’une distillerie, demanda de l’aide à Pasteur.</answer>
+		<answer>Mr Bigo est propriétaire d’une distillerie, et demanda de l’aide à Pasteur.</answer>
 	</question>
 
 	<question room="microbio">
-		<question>A Mons en Baroeul, où se rendit Pasteur pour aider monsieur Bigo ?</question>
+		<question>A Mons-en-Barœul, où se rendit Pasteur pour aider Monsieur Bigo ?</question>
 		<A>Dans un bar</A>
 		<B>Dans une école</B>
 		<C>Dans une distillerie</C>
 		<good>C</good>
-		<answer>Pasteur alla dans une distillerie pour résoudre un problème : l’alcool produit par monsieur Bigo est impropre à la consommation sans raison apparente.</answer>
+		<answer>Pasteur alla dans une distillerie pour résoudre un problème : l’alcool produit par Monsieur Bigo est impropre à la consommation sans raison apparente.</answer>
 	</question>
 
 	<question room="microbio">
@@ -230,7 +230,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>A</good>
-		<answer>Les bactéries du foin étaient plus résistantes à la chaleur que les levures de Pasteur, c’est pourquoi l’expérience de Pouchet n’a pas aboutie.</answer>
+		<answer>Les bactéries du foin étaient plus résistantes à la chaleur que les levures de Pasteur, c’est pourquoi l’expérience de Pouchet n’a pas abouti.</answer>
 	</question>
 
 <!-- LES MALADIES DES VERS A SOIE -->
@@ -242,7 +242,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<B>Macrosporidie</B>
 		<C>Phytosporidie</C>
 		<good>A</good>
-		<answer>Les vers à soie sont sujet à des maladies, dont l’infection par un « microsporidie », un petit champignon parasite, découvert par Pasteur lorsqu’il se rendit à Alès.</answer>
+		<answer>Les vers à soie sont sujets à des maladies, dont l’infection par un « microsporidie », un petit champignon parasite découvert par Pasteur lorsqu’il se rendit à Alès.</answer>
 	</question>
 
 	<question room="silk">
@@ -323,7 +323,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 	</question>
 
 	<question room="calmette">
-		<question>Calmette mit au point le sérum anti-venineux.</question>
+		<question>Calmette mit au point le sérum anti-venimeux.</question>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>A</good>
@@ -371,7 +371,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 	<question room="bcg">
 		<roomname>LE BCG</roomname>
 		<question>Les initiales BCG correspondent à :</question>
-		<A>Boeuf/Camille/Guérin</A>
+		<A>Bœuf/Camille/Guérin</A>
 		<B>Bile/Calmette/Guérin</B>
 		<C>Bilié/Calmette/Guérin</C>
 		<good>C</good>
@@ -436,7 +436,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<B>Une fondation</B>
 		<C>Un service public</C>
 		<good>B</good>
-		<answer>L’Institut Pasteur de Lille est une fondation reconnu d’intérêt public.</answer>
+		<answer>L’Institut Pasteur de Lille est une fondation reconnue d’intérêt public.</answer>
 	</question>
 
 	<question room="IPL">
@@ -464,7 +464,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<good>A</good>
 		<answer>Il y a 6 unités de recherche :
 - Récepteurs nucléaires, maladies cardiovasculaires et diabète
-- Médicaments et Molécules pour agir sur les Systèmes Vivants
+- Médicaments et molécules pour agir sur les systèmes vivants
 - Génomique intégrative et modélisation des maladies métaboliques
 - Mécanisme de la tumorigénèse et thérapies ciblées
 - Santé publique et épidémiologie moléculaire des maladies liées à l'âge
@@ -478,15 +478,15 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<B>150 000</B>
 		<C>3 millions</C>
 		<good>C</good>
-		<answer>Le nombre de diabétiques augmente chaque année en France,  Il y en a 3 millions aujourd’hui. l’IPL œuvre notamment pour prévenir le diabète et éviter ces complications.</answer>
+		<answer>Le nombre de diabétiques augmente chaque année en France,  Il y en a 3 millions aujourd’hui. l’IPL œuvre notamment pour prévenir le diabète et éviter ses complications.</answer>
 	</question>
 
 	<question room="IPL">
-		<question>Le centre de vaccination accueille 20 000 personnes par an.</question>
+		<question>Le centre de vaccination accueille 20.000 personnes par an.</question>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>A</good>
-		<answer>L’Institut Pasteur de Lille propose différents services de santé dont la vaccination.</answer>
+		<answer>L’Institut Pasteur de Lille propose différents services de santé dont la vaccination à 20.000 personnes par an.</answer>
 	</question>
 
 <!--	

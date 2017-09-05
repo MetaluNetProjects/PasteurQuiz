@@ -272,7 +272,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<B>Se laver les dents</B>
 		<C>Se laver les mains</C>
 		<good>C</good>
-		<answer>Avant 1878, les chirurgiens ne se lavaient pas les mains avant d'opérer, et de très nombreux patients mouraient d'infection après leur opération. Lister, suivant les conseils de Pasteur introduit l'hygiène dans les salles d'opérations et dans la vie courante.</answer>
+		<answer>Avant 1878, les chirurgiens ne se lavaient pas les mains avant d'opérer et de très nombreux patients mouraient d'infection après leur opération. Lister, suivant les conseils de Pasteur, introduit l'hygiène dans les salles d'opération et dans la vie courante.</answer>
 	</question>
 
 <!-- LE VACCIN CONTRE LA RAGE 1885 -->
@@ -306,11 +306,11 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 
 	<question room="calmette">
 		<roomname>L’HISTOIRE D’ALBERT CALMETTE</roomname>
-		<question>C’est en France que Calmette se passionne pour la microbiologie.</question>
+		<question>C’est en France que Calmette se passionna pour la microbiologie.</question>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>B</good>
-		<answer>C’est en Asie (à Hong Kong) que Albert Calmette rencontre Patrick Manson, un médecin qui observait des moustiques au microscope.</answer>
+		<answer>C’est en Asie (à Hong Kong) que Albert Calmette rencontra Patrick Manson, un médecin qui observait des moustiques au microscope.</answer>
 	</question>
 
 	<question room="calmette">

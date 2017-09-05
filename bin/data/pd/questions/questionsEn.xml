@@ -72,7 +72,7 @@
 		<question>The construction of the IPL was financed by Napoleon III.</question>
 		<A>True</A>
 		<B>False</B>
-		<good>A</good>
+		<good>B</good>
 		<answer>The construction of IPL was funded by the Ville de Lille (city council) and donations (including those of Calmette). Napoleon III helped finance the Institut Pasteur in Paris.</answer>
 	</question>
 
@@ -152,11 +152,11 @@ It paved the way for a new branch of study, known as stereochemistry.</answer>
 		<A>True</A>
 		<B>False</B>
 		<good>B</good>
-		<answer>Mr Bigo, who was the owner of a distillery, asked Pasteur for help.</answer>
+		<answer>Mr Bigo was the owner of a distillery; he asked Pasteur for help.</answer>
 	</question>
 
 	<question room="microbio">
-		<question>At Mons en Baroeul, where did Pasteur go to help Monsieur Bigo?</question>
+		<question>At Mons-en-Barœul, where did Pasteur go to help Monsieur Bigo?</question>
 		<A>A bar</A>
 		<B>A school</B>
 		<C>A distillery</C>

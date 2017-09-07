@@ -81,7 +81,7 @@ facultative: 	<answer_image>chien.png</answer_image>
 		<B>Des chevaux</B>
 		<C>Des serpents</C>
 		<good>B</good>
-		<answer>Les anti-corps des chevaux ont permis à Emile Roux de fabriquer son sérum.</answer>
+		<answer>Les anticorps des chevaux ont permis à Emile Roux de fabriquer son sérum.</answer>
 	</question>
 
 	<question room="video">
@@ -126,16 +126,16 @@ facultative: 	<answer_image>chien.png</answer_image>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>B</good>
-		<answer>Ce dispensaire avait pour objectif de prévenir la propagation de la tuberculose, en donnant des conseils sur l'hygiène, en lavant le linge des familles, en donnant de la nourriture saine, etc...</answer>
+		<answer>Ce dispensaire avait pour objectif de prévenir la propagation de la tuberculose, en donnant des conseils sur l'hygiène, en lavant le linge des familles, en donnant de la nourriture saine, etc.</answer>
 	</question>
 
 	<question room="dispER">
-		<question>La création de ce dispensaire introduit le concept de médecine préventive, idée novatrice pour l’époque.</question>
+		<question>La création de ce dispensaire a introduit le concept de médecine préventive, idée novatrice pour l’époque.</question>
 		<question_short>La création de ce dispensaire introduit le concept de médecine préventive.</question_short>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>A</good>
-		<answer>C’est la première fois que l’on prévient l’apparition de maladies. Les résultats sont tellement efficaces que la construction de dispensaire « type Calmette » deviendra obligatoire dans chaque département de France en 1916.</answer>
+		<answer>C’est la première fois que l’on prévenait l’apparition de maladies. Les résultats sont tellement efficaces que la construction de dispensaire « type Calmette » deviendra obligatoire dans chaque département de France en 1916.</answer>
 	</question>
 
 	<question room="dispER">
@@ -194,7 +194,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<B>Dans une école</B>
 		<C>Dans une distillerie</C>
 		<good>C</good>
-		<answer>Pasteur alla dans une distillerie pour résoudre un problème : l’alcool produit par Monsieur Bigo est impropre à la consommation sans raison apparente.</answer>
+		<answer>Pasteur alla dans une distillerie pour résoudre un problème : l’alcool produit par Monsieur Bigo était impropre à la consommation sans raison apparente.</answer>
 	</question>
 
 	<question room="microbio">
@@ -213,7 +213,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>A</good>
-		<answer>Selon eux, il suffit d’un élément déclencheur pour faire apparaître la vie : par exemple de la boue générera automatiquement des grenouilles.</answer>
+		<answer>Selon eux, il suffit d’un élément déclencheur pour faire apparaître la vie : par exemple de la boue génére automatiquement des grenouilles.</answer>
 	</question>
 
 	<question room="genespon">
@@ -310,11 +310,11 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>B</good>
-		<answer>C’est en Asie (à Hong Kong) que Albert Calmette rencontra Patrick Manson, un médecin qui observait des moustiques au microscope.</answer>
+		<answer>C’est en Asie (à Hong Kong) qu'Albert Calmette rencontra Patrick Manson, un médecin qui observait des moustiques au microscope.</answer>
 	</question>
 
 	<question room="calmette">
-		<question>Par quel animal Calmette se fit mordre le petit doigt ?</question>
+		<question>Par quel animal Calmette se fit-il mordre le petit doigt ?</question>
 		<A>Une araignée</A>
 		<B>Un serpent</B>
 		<C>Un moustique</C>
@@ -327,7 +327,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>A</good>
-		<answer>   </answer>
+		<answer>Calmette mit au point les premiers sérums antivenins contre les morsures de serpent.</answer>
 	</question>
 
 	<question room="calmette">
@@ -395,7 +395,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 	</question>
 
 	<question room="bcg">
-		<question>Grâce à quel tubercule Calmette parvient-il à cultiver la souche tuberculeuse du bœuf ?</question>
+		<question>Grâce à quel tubercule Calmette parvint-il à cultiver la souche tuberculeuse du bœuf ?</question>
 		<A>La betterave</A>
 		<B>Le gingembre</B>
 		<C>La pomme de terre</C>
@@ -408,7 +408,7 @@ Il ouvre la voie à une nouvelle branche d'étude, la stéréochimie.</answer>
 		<A>Vrai</A>
 		<B>Faux</B>
 		<good>A</good>
-		<answer>C’est en 1921, soit trois ans après la fin de la guerre, que Calmette et son collaborateur Guérin mettront au point le BCG.</answer>
+		<answer>C’est en 1921, soit trois ans après la fin de la guerre, que Calmette et son collaborateur Guérin mirent au point le BCG.</answer>
 	</question>
 
 	<question room="bcg">
